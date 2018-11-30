@@ -1,6 +1,6 @@
-## OS_ASSIGNMENT:
+# OS_ASSIGNMENT:
 
-#PROBLEM1:
+## PROBLEM1:
 
 Badminton Academy Problem
 Gopichand academy recently started allowing a ​ group of ​ 3 people to play badminton at
@@ -25,7 +25,7 @@ new person arrive with a ​ random, modulo 3 second delay and probability that 
 player/referee depends on the remaining number of players/referees that will be coming
 and each person is a thread.
 
-#SOLUTION:
+## SOLUTION:
 
 - run:
     gcc -pthread q1.c
@@ -34,7 +34,7 @@ and each person is a thread.
     created threads for players,referees and organizer
     self explanatory code with comments everywhere
 
-#PROBLEM2:
+## PROBLEM2:
 
 The Queue at the Polling Booth
 People are fed up with waiting at polling booths on the day of the election. So the
@@ -91,7 +91,7 @@ synchronization techniques.Output doesn't matter. It only depends how you simula
 Make reasonable assumptions so that your solution doesn't deviate a lot from the
 problem.
 
-#SOLUTION:
+## SOLUTION:
 
 - run:
     gcc -pthread q2.c
@@ -100,7 +100,7 @@ problem.
     created thread for booths,voters and evms
     self explanatory code with comments everywhere
 
-#PROBLEM3:
+## PROBLEM3:
 
 Concurrent Merge Sort
 ● Given a number ​ n ​ and n numbers, sort the numbers using Merge Sort.
@@ -116,7 +116,7 @@ Bonus​ :
 ● Use threads in place of processes for Concurrent Merge Sort. Add the
 performance comparison to the above report.
 
-#SOLUTION:
+## SOLUTION:
 
 - run:
     gcc q31.c
